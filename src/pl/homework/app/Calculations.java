@@ -34,7 +34,7 @@ public class Calculations {
                 bufferedWriter.write(parameters + " = " + result + "\n");
             }
         }  catch (IOException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 }
